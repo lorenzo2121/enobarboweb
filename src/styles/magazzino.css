@@ -1,0 +1,59 @@
+.magazzino-container {
+    padding: 20px;
+  }
+  
+  .add-alcohol-form {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .add-alcohol-form input {
+    padding: 5px;
+  }
+  
+  .add-alcohol-form button {
+    padding: 5px 10px;
+    background-color: #6a0dad;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .alcohol-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .alcohol-item {
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #333;
+    color: white;
+  }
+  
+  .restock-container {
+    display: flex;
+    gap: 5px;
+    margin-top: 10px;
+  }
+  
+  .restock-container input {
+    width: 60px;
+    padding: 5px;
+  }
+  
+  .restock-container button {
+    background-color: #6a0dad;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+
+  .white-text {
+    color: white;
+  }
+  

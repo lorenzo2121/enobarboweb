@@ -1,0 +1,74 @@
+/* src/Tables.css */
+.tables {
+    padding: 20px;
+  }
+  
+  .table {
+    background-color: #f9f9f9; /* Sfondo chiaro per le card dei tavoli */
+    border: 1px solid #ccc; /* Bordo grigio chiaro */
+    border-radius: 8px; /* Angoli arrotondati */
+    margin-bottom: 15px; /* Spazio tra i tavoli */
+    padding: 15px; /* Padding interno */
+  }
+  
+  h1 {
+    color: #333; /* Colore del titolo principale */
+  }
+  
+  h2 {
+    color: #007bff; /* Colore per i titoli dei tavoli */
+  }
+  
+  h3 {
+    color: #555; /* Colore per i titoli degli ordini */
+  }
+  
+  p {
+    color: #666; /* Colore per il testo */
+  }
+  
+  ul {
+    list-style-type: none; /* Rimuovi i punti dell'elenco */
+    padding: 0; /* Rimuovi padding */
+  }
+  
+  li {
+    margin-bottom: 5px; /* Spazio tra gli ordini */
+  }
+
+  .paid-button {
+    background-color: #4CAF50; /* Verde per pagato */
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3s;
+  }
+  
+  .paid-button:hover {
+    background-color: #45a049;
+  }
+
+  .served {
+    color: green; /* Testo verde per indicare che l'ordine è stato servito */
+    font-weight: bold;
+  }
+  
+  .serve-button {
+    background-color: #ff9800;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .serve-button:hover {
+    background-color: #e68900;
+  }
+  
+  
+  
