@@ -1,4 +1,3 @@
-// src/Tables.js
 import React, { useEffect, useState } from 'react';
 import { database } from '../firebase';
 import { ref, onValue, update } from "firebase/database";
@@ -46,12 +45,18 @@ function Tables() {
             <ul>
               {tableData.ordini ? (
                 Object.entries(tableData.ordini).map(([orderId, orderData]) => (
-                  <li key={orderId}>
-                    {orderData.cocktailName} - 
+                  <li key={orderId} className="order-item">
+                    <p><strong>Cocktail:</strong> {orderData.cocktailName}</p>
+                    <p><strong>Nome:</strong> {orderData.nome}</p>
+                    <p><strong>Cognome:</strong> {orderData.cognome}</p>
+                    <p><strong>Prezzo:</strong> €{orderData.prezzo}</p>
                     {orderData.servito === 1 ? (
                       <span className="served">Servito</span>
                     ) : (
-                      <button className="serve-button" onClick={() => handleServeOrder(tableId, orderId)}>
+                      <button 
+                        className="serve-button" 
+                        onClick={() => handleServeOrder(tableId, orderId)}
+                      >
                         Da Servire
                       </button>
                     )}
